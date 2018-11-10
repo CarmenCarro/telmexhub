@@ -1,0 +1,91 @@
+:root {
+	--dark-blue: #303952;
+	--secundario: #596275;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+img {
+	width: 100%;
+}
+/*nav bar*/
+.navbar {
+	background: var(--dark-blue);
+	padding: 1rem;
+}
+.navbar-brand {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.navbar a,
+.navbar-toggler {
+	color: var(--white);
+	padding: 0.8rem;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+.navbar-nav a:hover {
+	color: var(--verde);
+}
+.navbar-nav a.active,
+.navbar-toggler {
+	background: var(--secundario);
+	color: var(--white);
+	border-radius:0.25rem;
+}
+/*header*/
+header {
+	background: var(--secundario);
+	text-align: center;
+	color: var(--white);
+	padding: 6rem;	
+}
+.hero-image {
+	margin-bottom: 3rem;
+	border-radius: 50%;
+	width: 200px;
+}
+h1 {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+}
+.star {
+	border-width: 3px;
+	border-style: solid;
+	width: 30%;
+	text-align: center;
+}
+.star.light {
+	border-color: var(--white);
+}
+.star.darks {
+	border-color: var(--dark-blue);
+}
+.star::after{
+	position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+.star.light::after{
+	background: var(--secundario);
+}
+.star.darks::after{
+	background: var(--white);
+}
+header h2 {
+	font-size: 1.3rem;
+    font-family: Lato;
+}
+/*portfolio*/
+section {
+	padding: 7rem 0;
+}
+.proyecto {
+	position: absolute;
+}
