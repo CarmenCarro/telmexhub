@@ -21,30 +21,66 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Portafolio</a>
-            <a class="nav-item nav-link" href="#">Acerca de</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <header>
+    <header class="colored-section">
       <div class="container">
-        <img class="hero-image" src="img/girl.svg">
+        <img class="hero-image" src="img/photo.svg">
         <h1>Carmen Carro</h1>
         <hr class="star light">
-        <h2>Web Designer - User Experience Designer</h2>
+        <h2>Profesional fat cat- Catnipulation expert</h2>
       </div>
     </header>
 
-    <section>
+    <section id="portafolio">
       <div class="container">
         <h1>Portafolio</h1>
         <hr class="star darks">
+        <div class="row contenido justify-content-between">
 
-        <div class="row">
-          <div class="col-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="proyecto" data-toggle="modal" data-target="#modal1">
+              <div class="hovering">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+              <img src="img/submarine.png">
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="proyecto" data-toggle="modal" data-target="#modal1">
+              <div class="hovering">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+              <img src="img/submarine.png">
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="proyecto" data-toggle="modal" data-target="#modal1">
+              <div class="hovering">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+              <img src="img/submarine.png">
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="proyecto" data-toggle="modal" data-target="#modal1">
+              <div class="hovering">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+              <img src="img/submarine.png">
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="proyecto" data-toggle="modal" data-target="#modal1">
               <div class="hovering">
                 <i class="fas fa-search-plus fa-3x"></i>
@@ -56,6 +92,53 @@
         </div>
       </div>
     </section>
+
+    <section id="acerca" class="colored-section">
+      <div class="container">
+        <h1 class=" ">About meow</h1>
+        <hr class="star light">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <p>That box? i can fit in that box. Shake treat bag instead of drinking water from the cat bowl, make sure to steal water from the toilet so that box? i can fit in that box yet eat and than sleep on your face. Lie in the sink all day purr for no reason. Scratch the furniture cats secretly make all the worlds muffins. Meow all night get video posted to internet for chasing red dot catty ipsum then cats take over the world bite off human's toes love or somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock.</p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <p>Dont wait for the storm to pass, dance in the rain sun bathe love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) but the door is opening! how exciting oh, it's you, meh. Russian blue. Meow to be let in cry louder at reflection, attack like a vicious monster. </p>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <a href="#" class="get-in col-6 col-md-4"> 
+            <i class="fas fa-cat mr-1"></i>
+            Pet me!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modales -->
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fa fa-3x fa-times"></i>
+            </button>
+            <h1 class="modal-title" id="exampleModalLabel">Proyect Name</h1>
+            <hr class="star darks">
+          </div>
+
+          <div class="modal-body d-flex justify-content-center">
+            <div class="col-8">
+              <img src="img/submarine.png">
+              <p>That box? i can fit in that box. Shake treat bag instead of drinking water from the cat bowl, make sure to steal water from the toilet so that box? i can fit in that box yet eat and than sleep on your face. Lie in the sink all day purr for no reason. Scratch the furniture cats secretly make all the worlds muffins. Meow all night get video posted to internet for chasing red dot catty ipsum then cats take over the world bite off human's toes love or somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock. Dont wait for the storm to pass, dance in the rain sun bathe love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) but the door is opening! how exciting oh, it's you, meh. Russian blue. Meow to be let in cry louder at reflection, attack like a vicious monster. </p>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close proyect</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
