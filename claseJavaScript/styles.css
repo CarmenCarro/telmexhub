@@ -1,0 +1,30 @@
+
+:root {
+	--darks: rgb(97, 97, 97);
+}
+
+.navbar {
+	height: 100px;
+	
+}
+.navbar img {
+	margin: 0 20px;
+	width: 119.167px;
+    height: 50px;
+}
+.navbar-brand {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: var(--darks) !important;
+}
+.top-videos {
+	background: linear-gradient(to bottom, rgba(211,48,48,1) 0%, rgba(255,92,92,1) 100%);
+}
+table {
+	color: var(--white);
+	font-family: "Droid Sans", sans-serif;
+}
+.table a {
+	color: var(--white);
+	text-decoration: none;
+}
